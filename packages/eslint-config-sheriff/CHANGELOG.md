@@ -1,5 +1,16 @@
 # eslint-config-sheriff
 
+## 25.2.0
+
+### Minor Changes
+
+- fcc56c9: feature(rules): changed some rules for nextjs
+  Fixes #251
+
+### Patch Changes
+
+- e47654f: feat(plugins): updated deps
+
 ## 25.1.0
 
 ### Minor Changes
