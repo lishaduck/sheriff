@@ -48,8 +48,8 @@
     "clean": "rm -rf .turbo dist node_modules/.cache",
     "re-bundle-types": "dts-bundle-generator --config dts-config.json",
     "are-the-types-wrong": "attw --pack --profile=esm-only",
-    "build": "tsup && pnpm re-bundle-types",
-    "build-watch": "tsup && pnpm re-bundle-types",
+    "build": "tsdown",
+    "build-watch": "tsdown",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --max-warnings=0 --flag unstable_ts_config",
     "publint": "publint",
@@ -87,6 +87,7 @@
     "eslint-plugin-tsdoc": "^0.2.17",
     "eslint-plugin-unicorn": "^55.0.0",
     "globals": "^15.11.0",
+    "oxc-transform": "^0.44.0",
     "typescript-eslint": "^8.15.0"
   },
   "peerDependencies": {
@@ -106,14 +107,13 @@
     "@types/lodash": "^4.17.6",
     "@types/node": "^22.9.0",
     "@typescript-eslint/utils": "^8.15.0",
-    "dts-bundle-generator": "^9.5.1",
     "eslint": "^9.17.0",
     "eslint-define-config": "^2.1.0",
     "jiti": "^2.4.2",
     "lodash": "^4.17.21",
     "publint": "^0.2.10",
     "tsconfig": "workspace:*",
-    "tsup": "^8.3.0",
+    "tsdown": "^0.5.3",
     "typescript": "^5.6.3"
   },
   "publishConfig": {

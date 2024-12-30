@@ -20,6 +20,6 @@ export default defineFlatConfig([
     },
   },
   {
-    ignores: ['**/tsup.config.js'],
+    ignores: ['tsdown.config.ts'],
   },
 ]);

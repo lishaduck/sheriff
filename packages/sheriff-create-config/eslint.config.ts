@@ -19,4 +19,7 @@ export default defineFlatConfig([
       'fsecond/prefer-destructured-optionals': 0,
     },
   },
+  {
+    ignores: ['tsdown.config.ts'],
+  },
 ]);
